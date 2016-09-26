@@ -70,7 +70,7 @@ EasyPropertiesUtils 包括如下组件：
  ```
   
  **添加换行和注释示例：**
- ```
+ ```JAVA
   // Add newLinew by '#newLine'
   map.put("newLine 1", "#newLine");
   map.put("newLine 2", "#newLine");
@@ -80,7 +80,7 @@ EasyPropertiesUtils 包括如下组件：
  ```
 
  **删除内容示例：**
- ```
+ ```JAVA
   //Delete line 
   EasyPropertiesUtils.removeLinesToFile(propertiesFile, ".* need to delete.*");
   //Delete content

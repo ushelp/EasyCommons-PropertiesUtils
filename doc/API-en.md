@@ -70,7 +70,7 @@ EasyPropertiesUtils It includes the following components：
  ```
   
  **Adding line breaks and comments example:**
- ```
+ ```JAVA
   // Add newLinew by '#newLine'
   map.put("newLine 1", "#newLine");
   map.put("newLine 2", "#newLine");
@@ -80,7 +80,7 @@ EasyPropertiesUtils It includes the following components：
  ```
 
  **Remove content Example:**
- ```
+ ```JAVA
   //Delete line 
   EasyPropertiesUtils.removeLinesToFile(propertiesFile, ".* need to delete.*");
   //Delete content
