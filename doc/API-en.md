@@ -11,8 +11,7 @@
 ## 1. API summary
 EasyPropertiesUtils It includes the following components：
 
-1. **EasyProperties**：When the function does not affect or modify the properties used in place of the properties file java.util.Properties class, extends java.util.Properties, provides content merge (merge:: add, delete, change) and modifications (add, change modify) the original format; support `#comment` comment, `#newLine` add newline.
-
+1. **EasyProperties**：When the function does not affect or modify the properties used in place of the properties file java.util.Properties class, extends java.util.Properties, provides content merge (merge:: add, delete, change) and modifications (add, change modify) the original format; support `#comment` comment, `#newLine` add newline.<br/>
  **Scene** : properties require any scene file read and write operations, without affecting the original file format. 
 
  ```JAVA
@@ -28,8 +27,7 @@ EasyPropertiesUtils It includes the following components：
   modifyToFile(propertiesFile [, String charset]);
  ```
 
-2. **EasyPropertiesUtils**： Properties file directly modify the tools to provide the original format write functions, including a comment, support is incorporated (merge: add, delete, change) and modifications (modify: add, change); and suport use regular matches deleted file content; support `#comment` comment, `#newLine` add newline.
-
+2. **EasyPropertiesUtils**： Properties file directly modify the tools to provide the original format write functions, including a comment, support is incorporated (merge: add, delete, change) and modifications (modify: add, change); and suport use regular matches deleted file content; support `#comment` comment, `#newLine` add newline.<br/>
  **Scene**: properties files to modify the operation, without prejudice to the original format.
  
  ```JAVA

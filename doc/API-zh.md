@@ -11,8 +11,7 @@ Java提供的 `java.util.Properties` 不仅仅在设计上存在问题，并且�
 ## 1. API 简介
 EasyPropertiesUtils 包括如下组件：
 
-1. **EasyProperties**： 用来代替java.util.Properties的properties文件类， 扩展了java.util.Properties，提供了内容合并（merge: 增, 删, 改）和修改（modify: 增,改）功能，修改属性时不影响原格式；支持 `#comment` 注释，`#newLine` 添加换行。
- 
+1. **EasyProperties**： 用来代替java.util.Properties的properties文件类， 扩展了java.util.Properties，提供了内容合并（merge: 增, 删, 改）和修改（modify: 增,改）功能，修改属性时不影响原格式；支持 `#comment` 注释，`#newLine` 添加换行。<br/>
  **适合场景**：任何需要对properties文件进行读写操作的场景，不影响文件原格式。
  
  ```JAVA
@@ -28,8 +27,7 @@ EasyPropertiesUtils 包括如下组件：
   modifyToFile(propertiesFile [, String charset]);
  ```
 
-2. **EasyPropertiesUtils**： 直接修改Properties文件的工具类，提供原格式写功能，包括保留注释，支持内容合并（merge: 增, 删, 改）和修改（modify: 增,改）；并提供基于正则的文件内容匹配删除；支持 `#comment` 注释，`#newLine` 添加换行。
-
+2. **EasyPropertiesUtils**： 直接修改Properties文件的工具类，提供原格式写功能，包括保留注释，支持内容合并（merge: 增, 删, 改）和修改（modify: 增,改）；并提供基于正则的文件内容匹配删除；支持 `#comment` 注释，`#newLine` 添加换行。<br/>
  **适合场景**：对properties文件进行修改操作，又不影响原格式的情况。 
 
  ```JAVA
